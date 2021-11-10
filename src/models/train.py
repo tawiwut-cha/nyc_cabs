@@ -24,10 +24,10 @@ def evaluate_regressor_skl(regressor, X_train, y_train, X_val, y_val):
 
     print(f'Predicting with {regressor}')
     print('Training error:')
-    print(f'Root mean squared error = {rmse_train}')
+    print(f'Root mean squared error of log(trip_duration) = {rmse_train}')
     
     print('Validation error:')
-    print(f'Root mean squared error = {rmse_val}')
+    print(f'Root mean squared error of log(trip_duration) = {rmse_val}')
 
     return regressor, y_pred_train, y_pred_val
 
