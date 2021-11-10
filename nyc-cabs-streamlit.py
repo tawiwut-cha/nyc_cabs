@@ -18,6 +18,8 @@ Predict your taxi trip duration by entering:
 - pickup location
 - dropoff location
 
+Training data is from **NYC Trip Duration** [Kaggle competition](https://www.kaggle.com/c/nyc-taxi-trip-duration)
+
 ''')
 
 
