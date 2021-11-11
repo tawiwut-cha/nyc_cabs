@@ -15,6 +15,7 @@ st.write('''
 # NYC Taxi trip duration prediction!
 
 Predict your taxi trip duration by entering:
+- pickup datetime
 - pickup location
 - dropoff location
 
